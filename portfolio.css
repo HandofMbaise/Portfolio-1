@@ -158,7 +158,7 @@ body{
 }
 
 .container #read-me{
-    top: 13em;
+    top: 14em;
     left: 0.7em;
 
 }
@@ -170,14 +170,14 @@ body{
 
 
 #overview{
-    top: 21em;
+    top: 23em;
     left: 0.2em;
     color: lime;
     
 }
 
 .skills-container{
-    top: 48em;
+    top: 52em;
     left: 2em;
     display: block;
 }
