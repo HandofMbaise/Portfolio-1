@@ -154,7 +154,7 @@ body{
 
 
 .nav-bar ul a{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .container #read-me{
@@ -170,7 +170,7 @@ body{
 
 
 #overview{
-    top: 23em;
+    top: 24em;
     left: 0.2em;
     color: lime;
     
