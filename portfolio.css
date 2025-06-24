@@ -142,7 +142,7 @@ body{
 
 
  
-@media screen and (min-width: 450px){
+@media screen and (min-width: 350px) and (max-width: 600px){
 
  body{
     background-color: orange;
@@ -192,7 +192,7 @@ body{
 }
 
 
-@media screen and (max-width: 350px) and (min-width: 251px){
+/* @media screen and (max-width: 350px) and (min-width: 251px){
 
  body{
     background-color: lime;
@@ -290,7 +290,7 @@ body{
 }
 
 
-}
+} */
 
 
 
