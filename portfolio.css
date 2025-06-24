@@ -142,11 +142,11 @@ body{
 
 
  
-@media screen and (max-width: 450px) and (min-width: 351px){
+@media screen and (min-width: 450px){
 
- /* body{
+ body{
     background-color: orange;
-} */
+}
 
 #logo{
     margin-right: 45px;
