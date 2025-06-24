@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+#logo{
+    color: lime;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nav-bar{
+    place-items: center;
+    margin-top: 10px;
+    background-color: yellow;
+    
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul a{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar ul a:hover{
+    background-color: purple;
+    color: #fff;
+}
+
+.nav-bar ul a:active{
+    background-color: red;
+}
+
+.container{
+    margin: 10px 10px;
+}
+
+.container img{
+    width: 10em;
+    height: 10em;
+    border-radius: 10em;
+}
+
+.container #intro{
+    margin-left: 13px;
+}
+
+.container #Hi-span{
+    color: red;
+}
+
+.container #C-span{
+    color: lime;
+}
+
+.container #read-me{
+   position: absolute;
+   top: 13em;
+   left: 16em;
+   text-align: center;
+   color: yellow;
+ 
+}
+
+.container #welcome-msg{
+    margin: 10em 0px 0px 20em;
+}
+
+#overview{
+    position: absolute;
+    top: 25em;
+    left: 15em;
+    color: red;
+}
+
+.skills-container{
+    position: absolute;
+    top: 60em;
+    left: 13em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: 10px;
+
+}
+
+.skills{
+    border: solid #fff;
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin-right: 5em;
+    font-weight: 500;
+    
+}
+
+#icon{
+    position: absolute;
+    top: 80em;
+    left: 72em;
+    height: 20vh;
+}
+
+#hfm-icon{
+    font-size: 40px;
+}
+
+#hfm{
+    color: lime;
+}
+
+#Tech{
+    color: red;
+}
+
+#made-with{
+    color: lime;
+    
+}
+
+#special{
+    color: red;
+    
+}
+
+
+ 
+@media screen and (max-width: 450px) and (min-width: 351px){
+
+ body{
+    background-color: orange;
+}
+
+#logo{
+    margin-right: 45px;
+}
+
+
+.nav-bar ul a{
+    margin-right: 40px;
+}
+
+.container #read-me{
+    left: 0.5em;
+
+}
+
+.container #welcome-msg{
+    margin: auto;
+    margin-top: 5em;
+}
+
+
+#overview{
+    top: 21em;
+    left: 0.2em;
+    color: lime;
+    
+}
+
+.skills-container{
+    top: 49em;
+    left: 2em;
+    display: block;
+}
+
+
+
+#icon{
+    left: 21em;
+    top: 95em;
+}
+
+}
+
+
+@media screen and (max-width: 350px) and (min-width: 251px){
+
+ body{
+    background-color: lime;
+}
+
+#logo{
+    margin-right: 2em;
+    font-size: 2em;
+}
+
+
+
+.container #read-me{
+    left: auto;
+    margin-top: 1em;
+    
+}
+
+
+.container #welcome-msg{
+    margin: auto;
+    margin-top: 5em;
+}
+
+
+#overview{
+    top: 22em;
+    left: auto;
+    color: lime;
+  
+}
+
+
+.skills-container{
+    top: 50em;
+    left: 2em;
+    display: block;
+}
+
+
+
+#icon{
+    left: 15em;
+    top: 95em;
+}
+
+}
+
+
+@media screen and (max-width: 250px) and (min-width: 151px){
+
+ body{
+    background-color: red;
+}
+
+#logo{
+    margin-right: 2px;
+}
+
+
+
+.container #read-me{
+    left: auto;
+    right: 0.4em;
+    margin-top: 2em;
+
+}
+
+
+.container #welcome-msg{
+    margin: auto;
+    margin-top: 5em;
+}
+
+
+#overview{
+    left: auto;
+    color: lime;
+    margin-top: 1em;
+    margin-left: 6px;
+   
+}
+
+
+.skills-container{
+    left: 2em;
+    display: block;
+}
+
+
+
+#icon{
+    left: 10.5em;
+    top: 95em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Re-order of min and max width works too. */
+
+/* @media screen and (min-width: 400px) and (max-width: 450px){
+
+ body{
+    background-color: orange;
+}
+} */
+
+
+
+/* @media (max-width: 450px) and (min-width: 400px){
+
+ body{
+    background-color: orange;
+}
+}
+
+
+@media (max-width: 350px){
+
+ body{
+    background-color: lime;
+}
+}
+
+
+@media (max-width: 250px){
+
+ body{
+    background-color: red;
+}
+} */
+
+
+
+
+
+
+
+
+
