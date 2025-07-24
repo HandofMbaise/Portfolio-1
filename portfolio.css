@@ -143,6 +143,10 @@ body{
 
  
 @media screen and (min-width: 320px) and (max-width: 360px){
+ 
+body{
+    background-color: orange;
+}
 
 #logo{
     margin-right: 30px;
@@ -192,6 +196,10 @@ body{
 
 @media screen and (min-width: 360px) and (max-width: 375px){
 
+body{
+    background-color: lime;
+}
+
 #logo{
     margin-right: 20px;
 }
@@ -240,6 +248,10 @@ body{
 
 @media screen and (min-width: 375px) and (max-width: 414px){
 
+body{
+    background-color: red;
+}
+
 #logo{
     margin-right: 5px;
 }
@@ -285,6 +297,10 @@ body{
 
 
 @media screen and (min-width: 414px) and (max-width: 436px){
+
+body{
+    background-color: blue;
+}
  
 #logo{
     margin-right: 5px;
